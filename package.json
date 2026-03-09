@@ -1,0 +1,16 @@
+{
+  "name": "afkbot-bedrock",
+  "version": "1.0.0",
+  "description": "Minecraft Bedrock AFK bot with Microsoft auth web UI",
+  "main": "afkbot-bedrock.js",
+  "scripts": {
+    "start": "node afkbot-bedrock.js"
+  },
+  "dependencies": {
+    "bedrock-protocol": "^3.37.0",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
